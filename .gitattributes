@@ -1,2 +1,7 @@
 .rar filter=lfs diff=lfs merge=lfs -text
 *.rar filter=lfs diff=lfs merge=lfs -text
+car-racing-game/assets/** filter=lfs diff=lfs merge=lfs -text
+car-racing-game/logs/*.log filter=lfs diff=lfs merge=lfs -text
+car-racing-game/packages/** filter=lfs diff=lfs merge=lfs -text
+car-racing-game/project[[:space:]]settings/** filter=lfs diff=lfs merge=lfs -text
+car-racing-game/user[[:space:]]settings/** filter=lfs diff=lfs merge=lfs -text
